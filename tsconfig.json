@@ -17,9 +17,6 @@
       "resolveJsonModule": true,
       "baseUrl":".",
       "rootDir": ".",
-      "paths": {
-        "service-locator": ["src/portal/serviceLocator/index.ts"]
-      },
       "typeRoots": ["node_modules/@types"]
     },
     "exclude": [
