@@ -1,0 +1,16 @@
+{
+    "presets": [
+        [
+            "@babel/preset-env",
+            {
+                "modules": false,
+                "targets": [
+                    "last 2 versions",
+                    "IE >= 11",
+                    "Safari >= 7"
+                ]
+            }
+        ],
+        "@babel/preset-react"
+    ]
+}
