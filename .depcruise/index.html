@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <title>deps確認</title>
+    <script type="text/javascript" src="https://unpkg.com/viz.js@1.8.0"></script>
+    <style>
+    </style>
+</head>
+
+<body>
+    <div id="app">
+        <header >
+            <h1>簡易依存確認用html</h1>
+            <div>
+                <select id="viz-layouts">
+                    <option hidden>plz select</option>
+                </select>
+            </div>
+        </header>
+        <div class="out">
+            <h2>結果</h2>
+            <div id="graph-result"></div>
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="./dist/dot-result.js"></script>
+<script type="text/javascript" src="./main.js"></script>
+
+</html>

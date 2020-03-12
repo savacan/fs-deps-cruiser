@@ -7,7 +7,8 @@
     "build": "webpack",
     "dev": "webpack-dev-server",
     "test": "jest",
-    "lint": "eslint '**/*.+(ts|tsx)'"
+    "lint": "eslint '**/*.+(ts|tsx)'",
+    "depcruise:viz": "node ./.depcruise/cruise.js && open ./.depcruise/index.html"
   },
   "repository": {
     "type": "git",
